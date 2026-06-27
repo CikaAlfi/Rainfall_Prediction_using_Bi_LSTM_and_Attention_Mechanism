@@ -10,9 +10,7 @@
 | **Baseline** | Auto-ARIMA & Persistence (Rata-rata 7 hari) |
 | **Validasi** | Walk-Forward Validation 5-Fold |
 
-```
 
-```
 # Pipeline ini mencakup:
 
 - Load data spasial CHIRPS 3D (NetCDF: time × latitude × longitude)
@@ -27,8 +25,10 @@
 - Evaluasi metrik: R², MAE, RMSE pada data validation & test
 - Visualisasi lengkap: EDA, peta spasial, kurva training, scatter, residual, per musim
 
-```
+
 
 # Catatan Ilmiah
 
-Prediksi curah hujan harian berbasis data historis memiliki batas atas teoretis R² ≈ 45–55% (Poornima & Pushpalatha, 2019; Tao et al., 2021). Angka ini adalah rentang yang valid dan umum di literatur — bukan kelemahan model, melainkan sifat inheren data hidrologi. Data NetCDF 3D menambah informasi distribusi spasial yang meningkatkan performa dibandingkan pendekatan rata-rata provinsi tunggal.
+Prediksi curah hujan harian berbasis data historis memiliki batas atas teoretis R² ≈ 45–55% (Poornima & Pushpalatha, 2019; Tao et al., 2021). 
+Angka ini adalah rentang yang valid dan umum di literatur — bukan kelemahan model, melainkan sifat inheren data hidrologi. 
+Data NetCDF 3D menambah informasi distribusi spasial yang meningkatkan performa dibandingkan pendekatan rata-rata provinsi tunggal.
