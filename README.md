@@ -12,7 +12,7 @@
 
 ```
 
-
+```
 **Pipeline ini mencakup:**
 - Load data spasial CHIRPS 3D (NetCDF: time × latitude × longitude)
 - Ekstraksi fitur spasial (mean, std, max, p75, p90, pct_rain, regional sub-area)
@@ -25,6 +25,8 @@
 - Walk-Forward Validation (5-fold, val loss monitoring)
 - Evaluasi metrik: R², MAE, RMSE pada data validation & test
 - Visualisasi lengkap: EDA, peta spasial, kurva training, scatter, residual, per musim
+
+```
 ### Catatan Ilmiah
 
 > Prediksi curah hujan harian berbasis data historis memiliki **batas atas teoretis R² ≈ 45–55%**
