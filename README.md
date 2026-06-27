@@ -1,5 +1,16 @@
 # Ringkasan Proyek
 
+## Deskripsi Proyek
+Proyek ini merupakan implementasi dari skripsi yang bertujuan untuk memprediksi intensitas curah hujan harian (rata-rata 3 hari ke depan) di Provinsi Jawa Barat. Model yang digunakan adalah **Bidirectional Long Short-Term Memory (Bi-LSTM)** yang dipadukan dengan **Attention Mechanism** untuk menangkap dependensi temporal dan memberikan bobot lebih pada timestep historis yang penting.
+Sebagai baseline perbandingan, model ini juga dibandingkan dengan **Auto-ARIMA** 
+
+## Dataset
+Data yang digunakan adalah **CHIRPS (Climate Hazards Group InfraRed Precipitation with Station data)** versi 3D (NetCDF) yang mencakup dimensi *time*, *latitude*, dan *longitude*.
+- **Cakupan Wilayah:** Provinsi Jawa Barat
+- **Rentang Waktu:** 2000 - 2025
+- **Sumber Data:** [ClimateSERV](https://climateserv.servirglobal.net/)
+
+
 | Atribut | Keterangan |
 |---|---|
 | **Dataset** | CHIRPS v2.0 — daily precipitation (NetCDF 3D: waktu × lintang × bujur) |
