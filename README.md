@@ -12,6 +12,7 @@
 
 ```
 
+
 **Pipeline ini mencakup:**
 - Load data spasial CHIRPS 3D (NetCDF: time × latitude × longitude)
 - Ekstraksi fitur spasial (mean, std, max, p75, p90, pct_rain, regional sub-area)
