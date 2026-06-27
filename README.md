@@ -13,7 +13,7 @@
 ```
 
 ```
-**Pipeline ini mencakup:**
+#**Pipeline ini mencakup:**
 - Load data spasial CHIRPS 3D (NetCDF: time × latitude × longitude)
 - Ekstraksi fitur spasial (mean, std, max, p75, p90, pct_rain, regional sub-area)
 - Feature engineering rolling statistics bebas data leakage
@@ -27,8 +27,8 @@
 - Visualisasi lengkap: EDA, peta spasial, kurva training, scatter, residual, per musim
 
 ```
-### Catatan Ilmiah
 
+# Catatan Ilmiah
 > Prediksi curah hujan harian berbasis data historis memiliki **batas atas teoretis R² ≈ 45–55%**
 > (Poornima & Pushpalatha, 2019; Tao et al., 2021). Angka ini adalah rentang yang valid
 > dan umum di literatur — bukan kelemahan model, melainkan sifat inheren data hidrologi.
